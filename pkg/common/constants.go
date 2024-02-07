@@ -32,6 +32,7 @@ const (
 	StringRune       = "str"
 	StructExpl       = "struct"
 	SwitchBranch     = "switch"
+	TimeOut          = "timeout"
 	Values           = "values"
 	Variables        = "vars"
 )

@@ -57,6 +57,7 @@ type AllExampleList struct {
 	StructEmbedding      *structexpl.Embedding
 	StructExpl           *structexpl.StructExpl
 	SwitchBranch         *switchbranch.SwitchBranch
+	TimeOut              *channelexpl.TimeOutExpl
 	Values               *values.Values
 	Vars                 *variables.Variables
 }
@@ -90,6 +91,7 @@ func allExampleList() *AllExampleList {
 		StructEmbedding:      &structexpl.Embedding{},
 		StructExpl:           &structexpl.StructExpl{},
 		SwitchBranch:         &switchbranch.SwitchBranch{},
+		TimeOut:              &channelexpl.TimeOutExpl{},
 		Values:               &values.Values{},
 		Vars:                 &variables.Variables{},
 	}
