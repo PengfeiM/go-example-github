@@ -18,6 +18,7 @@ import (
 	"go-example/pkg/goexpl/mapexpl"
 	"go-example/pkg/goexpl/methodexpl"
 	"go-example/pkg/goexpl/pointer"
+	"go-example/pkg/goexpl/pongo2expl"
 	"go-example/pkg/goexpl/rangeexpl"
 	"go-example/pkg/goexpl/recursion"
 	"go-example/pkg/goexpl/slice"
@@ -48,7 +49,9 @@ type AllExampleList struct {
 	InterfaceExpl        *interfaceexpl.InterfaceExpl
 	MapExpl              *mapexpl.MapExpl
 	MethodExpl           *methodexpl.MethodExpl
+	NonBlockSelectExpl   *channelexpl.NonBlockSelectExpl
 	Pointer              *pointer.Pointer
+	Pongo2Expl           *pongo2expl.Pongo2Expl
 	RangeExpl            *rangeexpl.RangeExpl
 	Recursion            *recursion.Recursion
 	SelectExpl           *channelexpl.SelectExpl
@@ -82,7 +85,9 @@ func allExampleList() *AllExampleList {
 		InterfaceExpl:        &interfaceexpl.InterfaceExpl{},
 		MapExpl:              &mapexpl.MapExpl{},
 		MethodExpl:           &methodexpl.MethodExpl{},
+		NonBlockSelectExpl:   &channelexpl.NonBlockSelectExpl{},
 		Pointer:              &pointer.Pointer{},
+		Pongo2Expl:           &pongo2expl.Pongo2Expl{},
 		RangeExpl:            &rangeexpl.RangeExpl{},
 		Recursion:            &recursion.Recursion{},
 		SelectExpl:           &channelexpl.SelectExpl{},

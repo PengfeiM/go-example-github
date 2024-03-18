@@ -29,6 +29,7 @@ func pong(pings <-chan string, pongs chan<- string) {
 	pongs <- msg
 }
 
+// echor: echo what you input, unless it's a q or quit
 func echor(msgs chan string, outputted chan bool, done chan bool) {
 
 	fmt.Println("This is a long term input checker")
@@ -36,7 +37,10 @@ func echor(msgs chan string, outputted chan bool, done chan bool) {
 	var input string
 	for {
 		fmt.Println("Input something:")
-		fmt.Scanln(&input)
+		_, err := fmt.Scanln(&input)
+		if err != nil {
+			return
+		}
 		switch input {
 		case "q", "quit":
 			done <- true
