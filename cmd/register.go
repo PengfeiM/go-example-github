@@ -33,6 +33,7 @@ import (
 type AllExampleList struct {
 	Arrays               *arrays.Arrays
 	ChannelBufferExpl    *channelexpl.ChannelBufferExpl
+	ChannelCloseExpl     *channelexpl.ChannelCloseExpl
 	ChannelDirectionExpl *channelexpl.ChannelDirectionExpl
 	ChannelExpl          *channelexpl.ChannelExpl
 	ChannelSyncExpl      *channelexpl.ChannelSyncExpl
@@ -69,6 +70,7 @@ func allExampleList() *AllExampleList {
 	return &AllExampleList{
 		Arrays:               &arrays.Arrays{},
 		ChannelBufferExpl:    &channelexpl.ChannelBufferExpl{},
+		ChannelCloseExpl:     &channelexpl.ChannelCloseExpl{},
 		ChannelDirectionExpl: &channelexpl.ChannelDirectionExpl{},
 		ChannelExpl:          &channelexpl.ChannelExpl{},
 		ChannelSyncExpl:      &channelexpl.ChannelSyncExpl{},

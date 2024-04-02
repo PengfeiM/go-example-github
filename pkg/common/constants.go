@@ -8,6 +8,7 @@ const (
 	Base               = "base"
 	Channel            = "chan"
 	ChannelBuffer      = "chanbuf"
+	ChannelCloseExpl   = "chan-close"
 	ChannelDirection   = "chandirect"
 	ChannelSync        = "chansync"
 	Constants          = "const"
