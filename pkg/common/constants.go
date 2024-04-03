@@ -37,6 +37,8 @@ const (
 	StructExpl         = "struct"
 	SwitchBranch       = "switch"
 	TimeOut            = "timeout"
+	TimerExpl          = "timer"
+	TickerExpl         = "ticker"
 	Values             = "values"
 	Variables          = "vars"
 )
