@@ -10,6 +10,7 @@ const (
 	ChannelBuffer      = "chanbuf"
 	ChannelCloseExpl   = "chan-close"
 	ChannelDirection   = "chandirect"
+	ChannelRangeExpl   = "chan-range"
 	ChannelSync        = "chansync"
 	Constants          = "const"
 	Closure            = "closure"

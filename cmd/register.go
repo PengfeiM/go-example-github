@@ -36,6 +36,7 @@ type AllExampleList struct {
 	ChannelCloseExpl     *channelexpl.ChannelCloseExpl
 	ChannelDirectionExpl *channelexpl.ChannelDirectionExpl
 	ChannelExpl          *channelexpl.ChannelExpl
+	ChannelRangeExpl     *channelexpl.ChannelRangeExpl
 	ChannelSyncExpl      *channelexpl.ChannelSyncExpl
 	Constants            *constants.Constants
 	Closure              *closure.Closure
@@ -73,6 +74,7 @@ func allExampleList() *AllExampleList {
 		ChannelCloseExpl:     &channelexpl.ChannelCloseExpl{},
 		ChannelDirectionExpl: &channelexpl.ChannelDirectionExpl{},
 		ChannelExpl:          &channelexpl.ChannelExpl{},
+		ChannelRangeExpl:     &channelexpl.ChannelRangeExpl{},
 		ChannelSyncExpl:      &channelexpl.ChannelSyncExpl{},
 		Constants:            &constants.Constants{},
 		Closure:              &closure.Closure{},
