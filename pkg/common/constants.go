@@ -41,5 +41,6 @@ const (
 	TickerExpl         = "ticker"
 	Values             = "values"
 	Variables          = "vars"
+	WaitGroupExpl      = "waitgroup"
 	WorkerExpl         = "worker"
 )

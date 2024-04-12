@@ -5,7 +5,7 @@ import (
 	"go-example/pkg/goexpl/arrays"
 	"go-example/pkg/goexpl/channelexpl"
 	"go-example/pkg/goexpl/closure"
-	"go-example/pkg/goexpl/constants"
+	"go-example/pkg/goexpl/constantsexpl"
 	"go-example/pkg/goexpl/cronjob"
 	"go-example/pkg/goexpl/errorexpl"
 	"go-example/pkg/goexpl/forexpl"
@@ -40,7 +40,7 @@ type AllExampleList struct {
 	ChannelExpl          *channelexpl.ChannelExpl
 	ChannelRangeExpl     *channelexpl.ChannelRangeExpl
 	ChannelSyncExpl      *channelexpl.ChannelSyncExpl
-	Constants            *constants.Constants
+	Constants            *constantsexpl.Constants
 	Closure              *closure.Closure
 	CronJob              *cronjob.CronJob
 	ErrorExpl            *errorexpl.ErrorExpl
@@ -69,6 +69,7 @@ type AllExampleList struct {
 	TickerExpl           *timeexpl.TickerExpl
 	Values               *values.Values
 	Vars                 *variables.Variables
+	WaitGroupExpl        *goroutineexpl.WaitGroupExpl
 	WorkerExpl           *workerexpl.WorkerExpl
 }
 
@@ -81,7 +82,7 @@ func allExampleList() *AllExampleList {
 		ChannelExpl:          &channelexpl.ChannelExpl{},
 		ChannelRangeExpl:     &channelexpl.ChannelRangeExpl{},
 		ChannelSyncExpl:      &channelexpl.ChannelSyncExpl{},
-		Constants:            &constants.Constants{},
+		Constants:            &constantsexpl.Constants{},
 		Closure:              &closure.Closure{},
 		CronJob:              &cronjob.CronJob{},
 		ErrorExpl:            &errorexpl.ErrorExpl{},
@@ -110,6 +111,7 @@ func allExampleList() *AllExampleList {
 		TickerExpl:           &timeexpl.TickerExpl{},
 		Values:               &values.Values{},
 		Vars:                 &variables.Variables{},
+		WaitGroupExpl:        &goroutineexpl.WaitGroupExpl{},
 		WorkerExpl:           &workerexpl.WorkerExpl{},
 	}
 }

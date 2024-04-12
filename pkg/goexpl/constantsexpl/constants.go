@@ -1,4 +1,4 @@
-package constants
+package constantsexpl
 
 import (
 	"fmt"

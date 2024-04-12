@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"go-example/pkg/common"
 	"go-example/pkg/goexpl"
+	"strconv"
 	"time"
 )
 
@@ -18,9 +19,17 @@ func (we *WorkerExpl) RunExample(inputParams *goexpl.InputParams) error {
 		numOfWorkers = 3
 	} else if inputParams.GetArgNum() != 2 {
 		panic("number of arguments must be 2 integer")
+	} else {
+		args := inputParams.GetArgs()
+		numOfJobs, _ = strconv.Atoi(args[0])
+		numOfWorkers, _ = strconv.Atoi(args[1])
 	}
 
+	fmt.Println("Num of jobs:", numOfJobs)
+	fmt.Println("Num of workers:", numOfWorkers)
+
 	// make 2 channel
+	// the jobs channel will be used to send jobs to the worker
 	// jobs channel will be used to send jobs to the worker
 	// results channel will be used to receive the results from the worker
 	jobs := make(chan int, numOfJobs)
