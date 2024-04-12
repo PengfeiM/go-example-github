@@ -28,6 +28,7 @@ import (
 	"go-example/pkg/goexpl/timeexpl"
 	"go-example/pkg/goexpl/values"
 	"go-example/pkg/goexpl/variables"
+	"go-example/pkg/goexpl/workerexpl"
 	"reflect"
 )
 
@@ -68,6 +69,7 @@ type AllExampleList struct {
 	TickerExpl           *timeexpl.TickerExpl
 	Values               *values.Values
 	Vars                 *variables.Variables
+	WorkerExpl           *workerexpl.WorkerExpl
 }
 
 func allExampleList() *AllExampleList {
@@ -108,6 +110,7 @@ func allExampleList() *AllExampleList {
 		TickerExpl:           &timeexpl.TickerExpl{},
 		Values:               &values.Values{},
 		Vars:                 &variables.Variables{},
+		WorkerExpl:           &workerexpl.WorkerExpl{},
 	}
 }
 

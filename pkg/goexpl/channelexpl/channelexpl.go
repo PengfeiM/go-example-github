@@ -28,6 +28,7 @@ func (c *ChannelExpl) RunExample(inputParams *goexpl.InputParams) error {
 
 	// start a goroutine to push a string to msgChan
 	go func() {
+		//msgChan = make(chan string)
 		msgChan <- "ping"
 	}()
 

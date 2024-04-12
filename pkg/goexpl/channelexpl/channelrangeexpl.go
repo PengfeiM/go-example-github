@@ -15,6 +15,7 @@ func (cre *ChannelRangeExpl) RunExample(input *goexpl.InputParams) error {
 	queue <- "two"
 	close(queue)
 
+	// this loop will end when the channel is closed and the channel is empty
 	for elem := range queue {
 		fmt.Println(elem)
 	}

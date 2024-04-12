@@ -41,4 +41,5 @@ const (
 	TickerExpl         = "ticker"
 	Values             = "values"
 	Variables          = "vars"
+	WorkerExpl         = "worker"
 )
