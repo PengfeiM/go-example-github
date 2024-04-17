@@ -3,6 +3,7 @@ package cmd
 import (
 	"fmt"
 	"go-example/pkg/goexpl/arrays"
+	"go-example/pkg/goexpl/atomiccounterexpl"
 	"go-example/pkg/goexpl/channelexpl"
 	"go-example/pkg/goexpl/closure"
 	"go-example/pkg/goexpl/constantsexpl"
@@ -35,6 +36,7 @@ import (
 
 type AllExampleList struct {
 	Arrays               *arrays.Arrays
+	AtomicCounterExpl    *atomiccounterexpl.AtomicCounterExpl
 	ChannelBufferExpl    *channelexpl.ChannelBufferExpl
 	ChannelCloseExpl     *channelexpl.ChannelCloseExpl
 	ChannelDirectionExpl *channelexpl.ChannelDirectionExpl
@@ -78,6 +80,7 @@ type AllExampleList struct {
 func allExampleList() *AllExampleList {
 	return &AllExampleList{
 		Arrays:               &arrays.Arrays{},
+		AtomicCounterExpl:    &atomiccounterexpl.AtomicCounterExpl{},
 		ChannelBufferExpl:    &channelexpl.ChannelBufferExpl{},
 		ChannelCloseExpl:     &channelexpl.ChannelCloseExpl{},
 		ChannelDirectionExpl: &channelexpl.ChannelDirectionExpl{},

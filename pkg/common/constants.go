@@ -5,6 +5,7 @@ package common
 // go example names
 const (
 	Arrays             = "array"
+	AtomicCounterExpl  = "atomiccounter"
 	Base               = "base"
 	Channel            = "chan"
 	ChannelBuffer      = "chanbuf"
