@@ -20,6 +20,7 @@ import (
 	"go-example/pkg/goexpl/pointer"
 	"go-example/pkg/goexpl/pongo2expl"
 	"go-example/pkg/goexpl/rangeexpl"
+	"go-example/pkg/goexpl/ratelimitingexpl"
 	"go-example/pkg/goexpl/recursion"
 	"go-example/pkg/goexpl/slice"
 	"go-example/pkg/goexpl/strrune"
@@ -57,6 +58,7 @@ type AllExampleList struct {
 	Pointer              *pointer.Pointer
 	Pongo2Expl           *pongo2expl.Pongo2Expl
 	RangeExpl            *rangeexpl.RangeExpl
+	RateLimitingExpl     *ratelimitingexpl.RateLimitingExpl
 	Recursion            *recursion.Recursion
 	SelectExpl           *channelexpl.SelectExpl
 	Slices               *slice.Slices
@@ -99,6 +101,7 @@ func allExampleList() *AllExampleList {
 		Pointer:              &pointer.Pointer{},
 		Pongo2Expl:           &pongo2expl.Pongo2Expl{},
 		RangeExpl:            &rangeexpl.RangeExpl{},
+		RateLimitingExpl:     &ratelimitingexpl.RateLimitingExpl{},
 		Recursion:            &recursion.Recursion{},
 		SelectExpl:           &channelexpl.SelectExpl{},
 		Slices:               &slice.Slices{},

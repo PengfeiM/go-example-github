@@ -30,6 +30,7 @@ const (
 	Pointer            = "pointer"
 	Pongo2Expl         = "pongo2"
 	RangeExpl          = "range"
+	RateLimitingExpl   = "ratelimit"
 	Recursion          = "recur"
 	SelectExpl         = "select"
 	Slices             = "slice"
