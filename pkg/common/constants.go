@@ -27,6 +27,7 @@ const (
 	InterfaceExpl      = "interface"
 	MapExpl            = "map"
 	MethodExpl         = "method"
+	MutexExpl          = "mutex"
 	NonBlockSelectExpl = "non-block-chan-ops"
 	Pointer            = "pointer"
 	Pongo2Expl         = "pongo2"

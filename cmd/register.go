@@ -18,6 +18,7 @@ import (
 	"go-example/pkg/goexpl/interfaceexpl"
 	"go-example/pkg/goexpl/mapexpl"
 	"go-example/pkg/goexpl/methodexpl"
+	"go-example/pkg/goexpl/mutexexpl"
 	"go-example/pkg/goexpl/pointer"
 	"go-example/pkg/goexpl/pongo2expl"
 	"go-example/pkg/goexpl/rangeexpl"
@@ -56,6 +57,7 @@ type AllExampleList struct {
 	InterfaceExpl        *interfaceexpl.InterfaceExpl
 	MapExpl              *mapexpl.MapExpl
 	MethodExpl           *methodexpl.MethodExpl
+	MutexExpl            *mutexexpl.MutexExpl
 	NonBlockSelectExpl   *channelexpl.NonBlockSelectExpl
 	Pointer              *pointer.Pointer
 	Pongo2Expl           *pongo2expl.Pongo2Expl
@@ -100,6 +102,7 @@ func allExampleList() *AllExampleList {
 		InterfaceExpl:        &interfaceexpl.InterfaceExpl{},
 		MapExpl:              &mapexpl.MapExpl{},
 		MethodExpl:           &methodexpl.MethodExpl{},
+		MutexExpl:            &mutexexpl.MutexExpl{},
 		NonBlockSelectExpl:   &channelexpl.NonBlockSelectExpl{},
 		Pointer:              &pointer.Pointer{},
 		Pongo2Expl:           &pongo2expl.Pongo2Expl{},
