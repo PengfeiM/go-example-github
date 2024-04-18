@@ -8,6 +8,7 @@ import (
 	"go-example/pkg/goexpl/closure"
 	"go-example/pkg/goexpl/constantsexpl"
 	"go-example/pkg/goexpl/cronjob"
+	"go-example/pkg/goexpl/deferexpl"
 	"go-example/pkg/goexpl/errorexpl"
 	"go-example/pkg/goexpl/forexpl"
 	"go-example/pkg/goexpl/funcexpl"
@@ -19,6 +20,7 @@ import (
 	"go-example/pkg/goexpl/mapexpl"
 	"go-example/pkg/goexpl/methodexpl"
 	"go-example/pkg/goexpl/mutexexpl"
+	"go-example/pkg/goexpl/panicexpl"
 	"go-example/pkg/goexpl/pointer"
 	"go-example/pkg/goexpl/pongo2expl"
 	"go-example/pkg/goexpl/rangeexpl"
@@ -47,6 +49,7 @@ type AllExampleList struct {
 	Constants             *constantsexpl.Constants
 	Closure               *closure.Closure
 	CronJob               *cronjob.CronJob
+	DeferExpl             *deferexpl.DeferExpl
 	ErrorExpl             *errorexpl.ErrorExpl
 	ForExpl               *forexpl.ForExpl
 	FuncExpl              *funcexpl.FuncExpl
@@ -59,6 +62,7 @@ type AllExampleList struct {
 	MethodExpl            *methodexpl.MethodExpl
 	MutexExpl             *mutexexpl.MutexExpl
 	NonBlockSelectExpl    *channelexpl.NonBlockSelectExpl
+	PanicExpl             *panicexpl.PanicExpl
 	Pointer               *pointer.Pointer
 	Pongo2Expl            *pongo2expl.Pongo2Expl
 	RangeExpl             *rangeexpl.RangeExpl
@@ -95,6 +99,7 @@ func allExampleList() *AllExampleList {
 		Constants:             &constantsexpl.Constants{},
 		Closure:               &closure.Closure{},
 		CronJob:               &cronjob.CronJob{},
+		DeferExpl:             &deferexpl.DeferExpl{},
 		ErrorExpl:             &errorexpl.ErrorExpl{},
 		ForExpl:               &forexpl.ForExpl{},
 		FuncExpl:              &funcexpl.FuncExpl{},
@@ -107,6 +112,7 @@ func allExampleList() *AllExampleList {
 		MethodExpl:            &methodexpl.MethodExpl{},
 		MutexExpl:             &mutexexpl.MutexExpl{},
 		NonBlockSelectExpl:    &channelexpl.NonBlockSelectExpl{},
+		PanicExpl:             &panicexpl.PanicExpl{},
 		Pointer:               &pointer.Pointer{},
 		Pongo2Expl:            &pongo2expl.Pongo2Expl{},
 		RangeExpl:             &rangeexpl.RangeExpl{},
