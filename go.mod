@@ -7,6 +7,8 @@ require (
 	github.com/spf13/cobra v1.8.0
 )
 
+require golang.org/x/exp v0.0.0-20240409090435-93d18d7e34b8 // indirect
+
 require (
 	github.com/flosch/pongo2 v0.0.0-20200913210552-0d938eb266f3
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect

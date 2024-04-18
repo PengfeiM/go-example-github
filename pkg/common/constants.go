@@ -36,6 +36,8 @@ const (
 	Recursion             = "recur"
 	SelectExpl            = "select"
 	Slices                = "slice"
+	SortingExpl           = "sort"
+	SortByFunc            = "sortfunc"
 	StatefulGoroutineExpl = "stateful-goroutine"
 	StringRune            = "str"
 	StructExpl            = "struct"

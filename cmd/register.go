@@ -66,6 +66,8 @@ type AllExampleList struct {
 	Recursion             *recursion.Recursion
 	SelectExpl            *channelexpl.SelectExpl
 	Slices                *slice.Slices
+	SortingExpl           *slice.SortingExpl
+	SortByFunc            *slice.SortByFuncExpl
 	StatefulGoroutineExpl *goroutineexpl.StatefulGoroutineExpl
 	StringRune            *strrune.StringRune
 	StructEmbedding       *structexpl.Embedding
@@ -112,6 +114,8 @@ func allExampleList() *AllExampleList {
 		Recursion:             &recursion.Recursion{},
 		SelectExpl:            &channelexpl.SelectExpl{},
 		Slices:                &slice.Slices{},
+		SortByFunc:            &slice.SortByFuncExpl{},
+		SortingExpl:           &slice.SortingExpl{},
 		StatefulGoroutineExpl: &goroutineexpl.StatefulGoroutineExpl{},
 		StringRune:            &strrune.StringRune{},
 		StructEmbedding:       &structexpl.Embedding{},
