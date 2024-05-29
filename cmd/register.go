@@ -25,7 +25,9 @@ import (
 	"go-example/pkg/goexpl/pongo2expl"
 	"go-example/pkg/goexpl/rangeexpl"
 	"go-example/pkg/goexpl/ratelimitingexpl"
+	"go-example/pkg/goexpl/recoverexpl"
 	"go-example/pkg/goexpl/recursion"
+	"go-example/pkg/goexpl/shiftexpl"
 	"go-example/pkg/goexpl/slice"
 	"go-example/pkg/goexpl/strrune"
 	"go-example/pkg/goexpl/structexpl"
@@ -67,8 +69,10 @@ type AllExampleList struct {
 	Pongo2Expl            *pongo2expl.Pongo2Expl
 	RangeExpl             *rangeexpl.RangeExpl
 	RateLimitingExpl      *ratelimitingexpl.RateLimitingExpl
+	RecoverExpl           *recoverexpl.RecoverExpl
 	Recursion             *recursion.Recursion
 	SelectExpl            *channelexpl.SelectExpl
+	ShiftExpl             *shiftexpl.ShiftExpl
 	Slices                *slice.Slices
 	SortingExpl           *slice.SortingExpl
 	SortByFunc            *slice.SortByFuncExpl
@@ -117,8 +121,10 @@ func allExampleList() *AllExampleList {
 		Pongo2Expl:            &pongo2expl.Pongo2Expl{},
 		RangeExpl:             &rangeexpl.RangeExpl{},
 		RateLimitingExpl:      &ratelimitingexpl.RateLimitingExpl{},
+		RecoverExpl:           &recoverexpl.RecoverExpl{},
 		Recursion:             &recursion.Recursion{},
 		SelectExpl:            &channelexpl.SelectExpl{},
+		ShiftExpl:             &shiftexpl.ShiftExpl{},
 		Slices:                &slice.Slices{},
 		SortByFunc:            &slice.SortByFuncExpl{},
 		SortingExpl:           &slice.SortingExpl{},
