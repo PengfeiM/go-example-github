@@ -1,4 +1,5 @@
 {
     "name": "Alice",
-    "occupation": "123456"
+    "occupation": "123456",
+    "aBool": false
 }

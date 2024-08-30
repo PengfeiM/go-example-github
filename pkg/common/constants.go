@@ -29,6 +29,7 @@ const (
 	MapExpl               = "map"
 	MethodExpl            = "method"
 	MutexExpl             = "mutex"
+	NetExpl               = "net"
 	NonBlockSelectExpl    = "non-block-chan-ops"
 	PanicExpl             = "panic"
 	Pointer               = "pointer"
