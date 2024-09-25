@@ -28,6 +28,7 @@ import (
 	"go-example/pkg/goexpl/ratelimitingexpl"
 	"go-example/pkg/goexpl/recoverexpl"
 	"go-example/pkg/goexpl/recursion"
+	"go-example/pkg/goexpl/returnexpl"
 	"go-example/pkg/goexpl/shiftexpl"
 	"go-example/pkg/goexpl/slice"
 	"go-example/pkg/goexpl/strrune"
@@ -73,6 +74,7 @@ type AllExampleList struct {
 	RateLimitingExpl      *ratelimitingexpl.RateLimitingExpl
 	RecoverExpl           *recoverexpl.RecoverExpl
 	Recursion             *recursion.Recursion
+	ReturnExpl            *returnexpl.ReturnExpl
 	SelectExpl            *channelexpl.SelectExpl
 	ShiftExpl             *shiftexpl.ShiftExpl
 	Slices                *slice.Slices
@@ -126,6 +128,7 @@ func allExampleList() *AllExampleList {
 		RateLimitingExpl:      &ratelimitingexpl.RateLimitingExpl{},
 		RecoverExpl:           &recoverexpl.RecoverExpl{},
 		Recursion:             &recursion.Recursion{},
+		ReturnExpl:            &returnexpl.ReturnExpl{},
 		SelectExpl:            &channelexpl.SelectExpl{},
 		ShiftExpl:             &shiftexpl.ShiftExpl{},
 		Slices:                &slice.Slices{},

@@ -38,6 +38,7 @@ const (
 	RateLimitingExpl      = "ratelimit"
 	RecoverExpl           = "recover"
 	Recursion             = "recur"
+	Return                = "return"
 	SelectExpl            = "select"
 	ShiftExpl             = "shift"
 	Slices                = "slice"
