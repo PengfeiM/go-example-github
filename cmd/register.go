@@ -35,6 +35,7 @@ import (
 	"go-example/pkg/goexpl/structexpl"
 	"go-example/pkg/goexpl/switchbranch"
 	"go-example/pkg/goexpl/timeexpl"
+	"go-example/pkg/goexpl/unittestexpl"
 	"go-example/pkg/goexpl/values"
 	"go-example/pkg/goexpl/variables"
 	"go-example/pkg/goexpl/workerexpl"
@@ -88,6 +89,7 @@ type AllExampleList struct {
 	TimeOut               *channelexpl.TimeOutExpl
 	TimerExpl             *timeexpl.TimerExpl
 	TickerExpl            *timeexpl.TickerExpl
+	UnitTestExpl          *unittestexpl.UnitTestExpl
 	Values                *values.Values
 	Vars                  *variables.Variables
 	WaitGroupExpl         *goroutineexpl.WaitGroupExpl
@@ -142,6 +144,7 @@ func allExampleList() *AllExampleList {
 		TimeOut:               &channelexpl.TimeOutExpl{},
 		TimerExpl:             &timeexpl.TimerExpl{},
 		TickerExpl:            &timeexpl.TickerExpl{},
+		UnitTestExpl:          &unittestexpl.UnitTestExpl{},
 		Values:                &values.Values{},
 		Vars:                  &variables.Variables{},
 		WaitGroupExpl:         &goroutineexpl.WaitGroupExpl{},

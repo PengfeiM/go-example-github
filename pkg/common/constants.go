@@ -51,6 +51,7 @@ const (
 	TimeOut               = "timeout"
 	TimerExpl             = "timer"
 	TickerExpl            = "ticker"
+	UnitTestExpl          = "ut"
 	Values                = "values"
 	Variables             = "vars"
 	WaitGroupExpl         = "waitgroup"
