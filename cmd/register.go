@@ -2,6 +2,8 @@ package cmd
 
 import (
 	"fmt"
+	"reflect"
+
 	"go-example/pkg/goexpl/arrays"
 	"go-example/pkg/goexpl/atomiccounterexpl"
 	"go-example/pkg/goexpl/channelexpl"
@@ -39,7 +41,6 @@ import (
 	"go-example/pkg/goexpl/values"
 	"go-example/pkg/goexpl/variables"
 	"go-example/pkg/goexpl/workerexpl"
-	"reflect"
 )
 
 type AllExampleList struct {
@@ -63,6 +64,7 @@ type AllExampleList struct {
 	HelloWorld            *helloworld.HelloWorld
 	IfEl                  *ifel.IfEl
 	InterfaceExpl         *interfaceexpl.InterfaceExpl
+	IpAddrExpl            *netexpl.IpAddrExpl
 	MapExpl               *mapexpl.MapExpl
 	MethodExpl            *methodexpl.MethodExpl
 	MutexExpl             *mutexexpl.MutexExpl
@@ -118,6 +120,7 @@ func allExampleList() *AllExampleList {
 		HelloWorld:            &helloworld.HelloWorld{},
 		IfEl:                  &ifel.IfEl{},
 		InterfaceExpl:         &interfaceexpl.InterfaceExpl{},
+		IpAddrExpl:            &netexpl.IpAddrExpl{},
 		MapExpl:               &mapexpl.MapExpl{},
 		MethodExpl:            &methodexpl.MethodExpl{},
 		MutexExpl:             &mutexexpl.MutexExpl{},

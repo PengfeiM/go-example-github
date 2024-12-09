@@ -26,6 +26,7 @@ const (
 	HelloWorld            = "helloworld"
 	IfEl                  = "ifel"
 	InterfaceExpl         = "interface"
+	IpAddrExpl            = "ipaddr"
 	MapExpl               = "map"
 	MethodExpl            = "method"
 	MutexExpl             = "mutex"
