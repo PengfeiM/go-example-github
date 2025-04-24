@@ -85,6 +85,7 @@ type AllExampleList struct {
 	SortingExpl           *slice.SortingExpl
 	SortByFunc            *slice.SortByFuncExpl
 	StatefulGoroutineExpl *goroutineexpl.StatefulGoroutineExpl
+	StringFormat          *strexpl.StrFormatExpl
 	StringFunc            *strexpl.StrFuncExpl
 	StringRune            *strrune.StringRune
 	StructEmbedding       *structexpl.Embedding
@@ -142,6 +143,7 @@ func allExampleList() *AllExampleList {
 		SortByFunc:            &slice.SortByFuncExpl{},
 		SortingExpl:           &slice.SortingExpl{},
 		StatefulGoroutineExpl: &goroutineexpl.StatefulGoroutineExpl{},
+		StringFormat:          &strexpl.StrFormatExpl{},
 		StringFunc:            &strexpl.StrFuncExpl{},
 		StringRune:            &strrune.StringRune{},
 		StructEmbedding:       &structexpl.Embedding{},
