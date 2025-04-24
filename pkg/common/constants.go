@@ -51,6 +51,7 @@ const (
 	StringRune            = "str"
 	StructExpl            = "struct"
 	SwitchBranch          = "switch"
+	TextTemp              = "texttemp"
 	TimeOut               = "timeout"
 	TimerExpl             = "timer"
 	TickerExpl            = "ticker"

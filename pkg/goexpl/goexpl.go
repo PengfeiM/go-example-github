@@ -10,7 +10,7 @@ import (
 type InputParams struct {
 	argc int
 	argv []string
-	file os.File //预留参数，暂时未使用
+	file os.File // 预留参数，暂时未使用
 }
 
 func NewInputParams(argc int, argv []string, file os.File) *InputParams {
@@ -47,7 +47,7 @@ var (
 func RegisterGoExample(name string, goExample GoExample) error {
 	key := strings.ToLower(name)
 	if _, ok := goExampleMap[key]; ok {
-		return fmt.Errorf("Example %s has been regsitered", key)
+		return fmt.Errorf("example %s has been regsitered", key)
 	}
 	goExampleMap[key] = goExample
 	return nil
@@ -62,7 +62,6 @@ func GetGoExampleMap() map[string]GoExample {
 }
 
 func Init() {
-
 	// get map keys to make a list of go examples
 	j := 0
 	keys := make([]string, len(goExampleMap))

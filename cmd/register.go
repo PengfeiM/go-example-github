@@ -37,6 +37,7 @@ import (
 	"go-example/pkg/goexpl/strrune"
 	"go-example/pkg/goexpl/structexpl"
 	"go-example/pkg/goexpl/switchbranch"
+	"go-example/pkg/goexpl/texttemp"
 	"go-example/pkg/goexpl/timeexpl"
 	"go-example/pkg/goexpl/unittestexpl"
 	"go-example/pkg/goexpl/values"
@@ -91,6 +92,7 @@ type AllExampleList struct {
 	StructEmbedding       *structexpl.Embedding
 	StructExpl            *structexpl.StructExpl
 	SwitchBranch          *switchbranch.SwitchBranch
+	TextTemp              *texttemp.TextTempExpl
 	TimeOut               *channelexpl.TimeOutExpl
 	TimerExpl             *timeexpl.TimerExpl
 	TickerExpl            *timeexpl.TickerExpl
@@ -149,6 +151,7 @@ func allExampleList() *AllExampleList {
 		StructEmbedding:       &structexpl.Embedding{},
 		StructExpl:            &structexpl.StructExpl{},
 		SwitchBranch:          &switchbranch.SwitchBranch{},
+		TextTemp:              &texttemp.TextTempExpl{},
 		TimeOut:               &channelexpl.TimeOutExpl{},
 		TimerExpl:             &timeexpl.TimerExpl{},
 		TickerExpl:            &timeexpl.TickerExpl{},
