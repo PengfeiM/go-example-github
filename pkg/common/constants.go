@@ -46,6 +46,7 @@ const (
 	SortingExpl           = "sort"
 	SortByFunc            = "sortfunc"
 	StatefulGoroutineExpl = "stateful-goroutine"
+	StringFunc            = "strfunc"
 	StringRune            = "str"
 	StructExpl            = "struct"
 	SwitchBranch          = "switch"

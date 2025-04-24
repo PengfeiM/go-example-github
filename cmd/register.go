@@ -33,6 +33,7 @@ import (
 	"go-example/pkg/goexpl/returnexpl"
 	"go-example/pkg/goexpl/shiftexpl"
 	"go-example/pkg/goexpl/slice"
+	"go-example/pkg/goexpl/strexpl"
 	"go-example/pkg/goexpl/strrune"
 	"go-example/pkg/goexpl/structexpl"
 	"go-example/pkg/goexpl/switchbranch"
@@ -84,6 +85,7 @@ type AllExampleList struct {
 	SortingExpl           *slice.SortingExpl
 	SortByFunc            *slice.SortByFuncExpl
 	StatefulGoroutineExpl *goroutineexpl.StatefulGoroutineExpl
+	StringFunc            *strexpl.StrFuncExpl
 	StringRune            *strrune.StringRune
 	StructEmbedding       *structexpl.Embedding
 	StructExpl            *structexpl.StructExpl
@@ -140,6 +142,7 @@ func allExampleList() *AllExampleList {
 		SortByFunc:            &slice.SortByFuncExpl{},
 		SortingExpl:           &slice.SortingExpl{},
 		StatefulGoroutineExpl: &goroutineexpl.StatefulGoroutineExpl{},
+		StringFunc:            &strexpl.StrFuncExpl{},
 		StringRune:            &strrune.StringRune{},
 		StructEmbedding:       &structexpl.Embedding{},
 		StructExpl:            &structexpl.StructExpl{},
