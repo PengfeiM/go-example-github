@@ -48,10 +48,31 @@ func tt2() {
 	})
 }
 
+func tt3() {
+	// branch judgement
+	// . for value, . -> false if value of "." is the default value of the type
+	t3 := createTemp("t3", "{{if . -}} yes {{else -}} no {{end}}\n")
+	t3.Execute(os.Stdout, "not empty")
+	t3.Execute(os.Stdout, "")
+}
+
+func tt4() {
+	t4 := createTemp("t4",
+		"Range: {{range .}}{{.}}\t{{end}}\n")
+	t4.Execute(os.Stdout, []string{
+		"Go",
+		"Rust",
+		"C++",
+		"C#",
+	})
+}
+
 func (tt *TextTempExpl) RunExample(inputParams *goexpl.InputParams) error {
 	// 1st text/template test
 	tt1()
 	tt2()
+	tt3()
+	tt4()
 	return nil
 }
 
