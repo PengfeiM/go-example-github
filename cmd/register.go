@@ -19,6 +19,7 @@ import (
 	"go-example/pkg/goexpl/helloworld"
 	"go-example/pkg/goexpl/ifel"
 	"go-example/pkg/goexpl/interfaceexpl"
+	"go-example/pkg/goexpl/jsonexpl"
 	"go-example/pkg/goexpl/mapexpl"
 	"go-example/pkg/goexpl/methodexpl"
 	"go-example/pkg/goexpl/mutexexpl"
@@ -68,6 +69,7 @@ type AllExampleList struct {
 	IfEl                  *ifel.IfEl
 	InterfaceExpl         *interfaceexpl.InterfaceExpl
 	IpAddrExpl            *netexpl.IpAddrExpl
+	JsonExpl              *jsonexpl.JsonExpl
 	MapExpl               *mapexpl.MapExpl
 	MethodExpl            *methodexpl.MethodExpl
 	MutexExpl             *mutexexpl.MutexExpl
@@ -128,6 +130,7 @@ func allExampleList() *AllExampleList {
 		IfEl:                  &ifel.IfEl{},
 		InterfaceExpl:         &interfaceexpl.InterfaceExpl{},
 		IpAddrExpl:            &netexpl.IpAddrExpl{},
+		JsonExpl:              &jsonexpl.JsonExpl{},
 		MapExpl:               &mapexpl.MapExpl{},
 		MethodExpl:            &methodexpl.MethodExpl{},
 		MutexExpl:             &mutexexpl.MutexExpl{},

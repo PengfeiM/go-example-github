@@ -27,6 +27,7 @@ const (
 	IfEl                  = "ifel"
 	InterfaceExpl         = "interface"
 	IpAddrExpl            = "ipaddr"
+	JsonExpl              = "json"
 	MapExpl               = "map"
 	MethodExpl            = "method"
 	MutexExpl             = "mutex"
