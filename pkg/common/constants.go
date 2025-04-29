@@ -54,6 +54,7 @@ const (
 	StructExpl            = "struct"
 	SwitchBranch          = "switch"
 	TextTemp              = "texttemp"
+	TimeExpl              = "time"
 	TimeOut               = "timeout"
 	TimerExpl             = "timer"
 	TickerExpl            = "ticker"
