@@ -64,4 +64,5 @@ const (
 	WaitGroupExpl         = "waitgroup"
 	WorkerExpl            = "worker"
 	TimeProcessExpl       = "timeproc"
+	RandExpl              = "rand"
 )

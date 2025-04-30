@@ -27,6 +27,7 @@ import (
 	"go-example/pkg/goexpl/panicexpl"
 	"go-example/pkg/goexpl/pointer"
 	"go-example/pkg/goexpl/pongo2expl"
+	"go-example/pkg/goexpl/randexpl"
 	"go-example/pkg/goexpl/rangeexpl"
 	"go-example/pkg/goexpl/ratelimitingexpl"
 	"go-example/pkg/goexpl/recoverexpl"
@@ -107,6 +108,7 @@ type AllExampleList struct {
 	WorkerExpl            *workerexpl.WorkerExpl
 	TimeExpl              *timeexpl.TimeExpl
 	TimeProcessExpl       *timeexpl.TimeProcessExpl
+	RandExpl              *randexpl.RandExpl
 }
 
 func allExampleList() *AllExampleList {
@@ -170,6 +172,7 @@ func allExampleList() *AllExampleList {
 		WorkerExpl:            &workerexpl.WorkerExpl{},
 		TimeExpl:              &timeexpl.TimeExpl{},
 		TimeProcessExpl:       &timeexpl.TimeProcessExpl{},
+		RandExpl:              &randexpl.RandExpl{},
 	}
 }
 
