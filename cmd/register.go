@@ -43,6 +43,7 @@ import (
 	"go-example/pkg/goexpl/texttemp"
 	"go-example/pkg/goexpl/timeexpl"
 	"go-example/pkg/goexpl/unittestexpl"
+	"go-example/pkg/goexpl/urlexpl"
 	"go-example/pkg/goexpl/values"
 	"go-example/pkg/goexpl/variables"
 	"go-example/pkg/goexpl/workerexpl"
@@ -110,6 +111,7 @@ type AllExampleList struct {
 	TimeProcessExpl       *timeexpl.TimeProcessExpl
 	RandExpl              *randexpl.RandExpl
 	StrNumExpl            *strexpl.StrNumExpl
+	UrlExpl               *urlexpl.UrlExpl
 }
 
 func allExampleList() *AllExampleList {
@@ -175,6 +177,7 @@ func allExampleList() *AllExampleList {
 		TimeProcessExpl:       &timeexpl.TimeProcessExpl{},
 		RandExpl:              &randexpl.RandExpl{},
 		StrNumExpl:            &strexpl.StrNumExpl{},
+		UrlExpl:               &urlexpl.UrlExpl{},
 	}
 }
 

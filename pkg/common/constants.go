@@ -66,4 +66,5 @@ const (
 	TimeProcessExpl       = "timeproc"
 	RandExpl              = "rand"
 	StrNumExpl            = "strnum"
+	UrlExpl               = "url"
 )
