@@ -65,4 +65,5 @@ const (
 	WorkerExpl            = "worker"
 	TimeProcessExpl       = "timeproc"
 	RandExpl              = "rand"
+	StrNumExpl            = "strnum"
 )

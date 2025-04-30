@@ -109,6 +109,7 @@ type AllExampleList struct {
 	TimeExpl              *timeexpl.TimeExpl
 	TimeProcessExpl       *timeexpl.TimeProcessExpl
 	RandExpl              *randexpl.RandExpl
+	StrNumExpl            *strexpl.StrNumExpl
 }
 
 func allExampleList() *AllExampleList {
@@ -173,6 +174,7 @@ func allExampleList() *AllExampleList {
 		TimeExpl:              &timeexpl.TimeExpl{},
 		TimeProcessExpl:       &timeexpl.TimeProcessExpl{},
 		RandExpl:              &randexpl.RandExpl{},
+		StrNumExpl:            &strexpl.StrNumExpl{},
 	}
 }
 
