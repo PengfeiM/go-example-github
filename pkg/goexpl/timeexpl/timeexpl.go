@@ -56,6 +56,18 @@ func (t *TimeExpl) RunExample(inputParams *goexpl.InputParams) error {
 	p(then.Add(diff))
 	p(then.Add(-diff))
 
+	// unix form time
+	p("unix epoch time")
+	// now := time.Now()
+	p(now)
+	p(now.Unix())
+	p(now.UnixMilli())
+	p(now.UnixNano())
+	// use time.Unix to calculate time
+	// second first, and then nanosecond
+	p(time.Unix(now.Unix(), 0))
+	p(time.Unix(0, now.UnixNano()))
+
 	return nil
 }
 

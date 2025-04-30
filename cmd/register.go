@@ -106,6 +106,7 @@ type AllExampleList struct {
 	WaitGroupExpl         *goroutineexpl.WaitGroupExpl
 	WorkerExpl            *workerexpl.WorkerExpl
 	TimeExpl              *timeexpl.TimeExpl
+	TimeProcessExpl       *timeexpl.TimeProcessExpl
 }
 
 func allExampleList() *AllExampleList {
@@ -168,6 +169,7 @@ func allExampleList() *AllExampleList {
 		WaitGroupExpl:         &goroutineexpl.WaitGroupExpl{},
 		WorkerExpl:            &workerexpl.WorkerExpl{},
 		TimeExpl:              &timeexpl.TimeExpl{},
+		TimeProcessExpl:       &timeexpl.TimeProcessExpl{},
 	}
 }
 

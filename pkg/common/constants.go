@@ -63,4 +63,5 @@ const (
 	Variables             = "vars"
 	WaitGroupExpl         = "waitgroup"
 	WorkerExpl            = "worker"
+	TimeProcessExpl       = "timeproc"
 )
