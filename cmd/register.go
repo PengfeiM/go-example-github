@@ -34,6 +34,7 @@ import (
 	"go-example/pkg/goexpl/recursion"
 	"go-example/pkg/goexpl/regexpexpl"
 	"go-example/pkg/goexpl/returnexpl"
+	"go-example/pkg/goexpl/shaexpl"
 	"go-example/pkg/goexpl/shiftexpl"
 	"go-example/pkg/goexpl/slice"
 	"go-example/pkg/goexpl/strexpl"
@@ -112,6 +113,7 @@ type AllExampleList struct {
 	RandExpl              *randexpl.RandExpl
 	StrNumExpl            *strexpl.StrNumExpl
 	UrlExpl               *urlexpl.UrlExpl
+	SHAExpl               *shaexpl.SHAExpl
 }
 
 func allExampleList() *AllExampleList {
@@ -178,6 +180,7 @@ func allExampleList() *AllExampleList {
 		RandExpl:              &randexpl.RandExpl{},
 		StrNumExpl:            &strexpl.StrNumExpl{},
 		UrlExpl:               &urlexpl.UrlExpl{},
+		SHAExpl:               &shaexpl.SHAExpl{},
 	}
 }
 

@@ -67,4 +67,5 @@ const (
 	RandExpl              = "rand"
 	StrNumExpl            = "strnum"
 	UrlExpl               = "url"
+	SHAExpl               = "sha"
 )
