@@ -6,6 +6,7 @@ import (
 
 	"go-example/pkg/goexpl/arrays"
 	"go-example/pkg/goexpl/atomiccounterexpl"
+	"go-example/pkg/goexpl/base64expl"
 	"go-example/pkg/goexpl/channelexpl"
 	"go-example/pkg/goexpl/closure"
 	"go-example/pkg/goexpl/constantsexpl"
@@ -114,6 +115,7 @@ type AllExampleList struct {
 	StrNumExpl            *strexpl.StrNumExpl
 	UrlExpl               *urlexpl.UrlExpl
 	SHAExpl               *shaexpl.SHAExpl
+	Base64Expl            *base64expl.Base64Expl
 }
 
 func allExampleList() *AllExampleList {
@@ -181,6 +183,7 @@ func allExampleList() *AllExampleList {
 		StrNumExpl:            &strexpl.StrNumExpl{},
 		UrlExpl:               &urlexpl.UrlExpl{},
 		SHAExpl:               &shaexpl.SHAExpl{},
+		Base64Expl:            &base64expl.Base64Expl{},
 	}
 }
 

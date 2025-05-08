@@ -68,4 +68,5 @@ const (
 	StrNumExpl            = "strnum"
 	UrlExpl               = "url"
 	SHAExpl               = "sha"
+	Base64Expl            = "base64"
 )
