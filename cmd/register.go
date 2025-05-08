@@ -13,6 +13,7 @@ import (
 	"go-example/pkg/goexpl/cronjob"
 	"go-example/pkg/goexpl/deferexpl"
 	"go-example/pkg/goexpl/errorexpl"
+	"go-example/pkg/goexpl/fileexpl"
 	"go-example/pkg/goexpl/forexpl"
 	"go-example/pkg/goexpl/funcexpl"
 	"go-example/pkg/goexpl/generics"
@@ -116,6 +117,7 @@ type AllExampleList struct {
 	UrlExpl               *urlexpl.UrlExpl
 	SHAExpl               *shaexpl.SHAExpl
 	Base64Expl            *base64expl.Base64Expl
+	FileReadExpl          *fileexpl.FileReadExpl
 }
 
 func allExampleList() *AllExampleList {
@@ -184,6 +186,7 @@ func allExampleList() *AllExampleList {
 		UrlExpl:               &urlexpl.UrlExpl{},
 		SHAExpl:               &shaexpl.SHAExpl{},
 		Base64Expl:            &base64expl.Base64Expl{},
+		FileReadExpl:          &fileexpl.FileReadExpl{},
 	}
 }
 

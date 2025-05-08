@@ -69,4 +69,6 @@ const (
 	UrlExpl               = "url"
 	SHAExpl               = "sha"
 	Base64Expl            = "base64"
+	FileReadExpl          = "fileread"
+	FileWriteExpl         = "filewrite"
 )
