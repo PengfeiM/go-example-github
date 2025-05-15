@@ -118,6 +118,7 @@ type AllExampleList struct {
 	SHAExpl               *shaexpl.SHAExpl
 	Base64Expl            *base64expl.Base64Expl
 	FileReadExpl          *fileexpl.FileReadExpl
+	FileWriteExpl         *fileexpl.FileWriteExpl
 }
 
 func allExampleList() *AllExampleList {
@@ -187,6 +188,7 @@ func allExampleList() *AllExampleList {
 		SHAExpl:               &shaexpl.SHAExpl{},
 		Base64Expl:            &base64expl.Base64Expl{},
 		FileReadExpl:          &fileexpl.FileReadExpl{},
+		FileWriteExpl:         &fileexpl.FileWriteExpl{},
 	}
 }
 

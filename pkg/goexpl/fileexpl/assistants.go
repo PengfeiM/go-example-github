@@ -6,7 +6,11 @@ import (
 	"os"
 )
 
-var filename1 = "./files/sample.txt"
+var (
+	filename1 = "./files/sample.txt"
+	filew1    = "./files/dat1"
+	filew2    = "./files/dat2"
+)
 
 // check
 // panic err if err isn't null
