@@ -12,6 +12,8 @@ var (
 	filew2    = "./files/dat2"
 )
 
+var pl = fmt.Println
+
 // check
 // panic err if err isn't null
 func check(err error) {

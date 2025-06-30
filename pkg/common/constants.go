@@ -71,4 +71,5 @@ const (
 	Base64Expl            = "base64"
 	FileReadExpl          = "fileread"
 	FileWriteExpl         = "filewrite"
+	FilePath              = "filepath"
 )

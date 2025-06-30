@@ -119,6 +119,7 @@ type AllExampleList struct {
 	Base64Expl            *base64expl.Base64Expl
 	FileReadExpl          *fileexpl.FileReadExpl
 	FileWriteExpl         *fileexpl.FileWriteExpl
+	FilePathExpl          *fileexpl.FilePathExpl
 }
 
 func allExampleList() *AllExampleList {
@@ -189,6 +190,7 @@ func allExampleList() *AllExampleList {
 		Base64Expl:            &base64expl.Base64Expl{},
 		FileReadExpl:          &fileexpl.FileReadExpl{},
 		FileWriteExpl:         &fileexpl.FileWriteExpl{},
+		FilePathExpl:          &fileexpl.FilePathExpl{},
 	}
 }
 
