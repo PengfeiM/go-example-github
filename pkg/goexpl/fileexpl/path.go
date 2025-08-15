@@ -7,8 +7,7 @@ import (
 	"go-example/pkg/goexpl"
 )
 
-// FilePathExpl
-// here we use path/filepath package to operate filepaths
+// FilePathExpl here we use path/filepath package to operate filepaths
 type FilePathExpl struct{}
 
 func (fp *FilePathExpl) RunExample(inputParams *goexpl.InputParams) error {

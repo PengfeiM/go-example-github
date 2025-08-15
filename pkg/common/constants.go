@@ -72,4 +72,5 @@ const (
 	FileReadExpl          = "fileread"
 	FileWriteExpl         = "filewrite"
 	FilePath              = "filepath"
+	DirExpl               = "dir"
 )

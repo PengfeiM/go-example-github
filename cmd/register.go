@@ -120,6 +120,7 @@ type AllExampleList struct {
 	FileReadExpl          *fileexpl.FileReadExpl
 	FileWriteExpl         *fileexpl.FileWriteExpl
 	FilePathExpl          *fileexpl.FilePathExpl
+	DirExpl               *fileexpl.DirExpl
 }
 
 func allExampleList() *AllExampleList {
@@ -191,6 +192,7 @@ func allExampleList() *AllExampleList {
 		FileReadExpl:          &fileexpl.FileReadExpl{},
 		FileWriteExpl:         &fileexpl.FileWriteExpl{},
 		FilePathExpl:          &fileexpl.FilePathExpl{},
+		DirExpl:               &fileexpl.DirExpl{},
 	}
 }
 

@@ -55,5 +55,5 @@ func (ue *UrlExpl) Init() {
 }
 
 func (ue *UrlExpl) GetGoExampleName() string {
-	return common.UrlExpl
+	return common.URLExpl
 }
